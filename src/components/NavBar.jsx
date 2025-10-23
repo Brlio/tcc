@@ -1,28 +1,19 @@
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
 function NavBar() {
     return (
-        <nav className="navbar navbar-expand-lg bg-body-tertiary">
-            <div className="container-fluid">
-                <Link to="/"></Link> |{" "}
-                <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span className="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/">Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
                 </button>
-                <div className="collapse navbar-collapse" id="navbarNav">
-                    <ul className="navbar-nav">
-                        <li className="nav-item">
-                            <Link to="/Papelaria">Papelaria</Link> |{" "}
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/Grafica">Grafica</Link> |{" "}
-                        </li>
-                        <li className="nav-item">
-                            <Link to="/Artevisual">Artes Visuais</Link> |{" "}
-                        </li>
-                        <li className="nav-item">
-                            <a className="nav-link disabled" aria-disabled="true">Disabled</a>
-                        </li>
-                    </ul>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link" href="/Artevisual">Arte Visual</a>
+                        <a class="nav-link" href="/Grafica">Grafica</a>
+                        <a class="nav-link" href="/Papelaria">Papelaria</a>
+                    </div>
                 </div>
             </div>
         </nav>

@@ -5,23 +5,26 @@ import Artevisual from './assets/Artevisual';
 import Grafica from './assets/Grafica';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'bootstrap/dist/js/bootstrap.min.js'
+import Home from './assets/Home';
 
 function App() {
-    return (
-        <>
-       
-        <BrowserRouter>
-          
+  return (
+    <>
+
+      <BrowserRouter>
+
         <NavBar />
-    
-          
-          <Routes>
-            <Route path="/Grafica" element={<Grafica />} />
-            <Route path="/Papelaria" element={<Papelaria />} />
-            <Route path="/Artevisual" element={<Artevisual />} />
-          </Routes>
-        </BrowserRouter>
-        </>
-      )
+
+
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/Grafica" element={<Grafica />} />
+          <Route path="/Papelaria" element={<Papelaria />} />
+          <Route path="/Artevisual" element={<Artevisual />} />
+        </Routes>
+      </BrowserRouter>
+      
+    </>
+  )
 }
 export default App
