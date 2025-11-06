@@ -4,8 +4,8 @@ function NavBar() {
     return (
         <nav style={{backgroundColor: "#cc0000"}} class="navbar navbar-expand-lg " >
             <div class="container-fluid">
-                <a style={{color: "white"}} class="navbar-brand" href="/">Navbar</a>
-                <button style={{backgroundColor: "white"}} class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <a style={{color: "white"}} class="navbar-brand" href="/">Lion</a>
+                <button style={{backgroundColor: "white", color: "transparent"}}  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                     <span style={{backgroundColor: "white"}} class="navbar-toggler-icon"></span>
                 </button>
                 <div  class="collapse navbar-collapse" id="navbarNavAltMarkup">
