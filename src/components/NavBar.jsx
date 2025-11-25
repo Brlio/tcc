@@ -20,6 +20,7 @@ function NavBar() {
                         <a style={{color: "#FFFFFF", fontWeight: "600"}} class="nav-link" href="/Artevisual">Arte Visual</a>
                         <a style={{color: "#FFFFFF", fontWeight: "600"}} class="nav-link" href="/Grafica">Grafica</a>
                         <a style={{color: "#FFFFFF", fontWeight: "600"}} class="nav-link" href="/Papelaria">Papelaria</a>
+                        <a style={{color: "#FFFFFF", fontWeight: "600"}} class="nav-link" href="https://www.papelarialion.com.br/">E-commerce</a>
                     </div>
                 </div>
             </div>
